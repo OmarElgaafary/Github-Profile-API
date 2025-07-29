@@ -6,12 +6,13 @@ body {
 p {
     display: inline-block;
     margin: 0px;
+    color: white;
+
 }
 
 .header {
     position: relative;
     position: absolute;
-    color: white;
     top: 100px;
     left: 43%;
     right: 50%;
@@ -25,30 +26,28 @@ p {
     margin-right: 20px;
 }
 
-.search-bar {
+.search-bar,
+.search-button {
     position: absolute;
-    top: 75px;
-    left: -4%;
-    height: 40px;
-    width: 600px;
-    border: 1px solid gray;
-    border-radius: 10px;
     background-color: rgb(32, 32, 32);
+    border: 1px solid gray;
+    color: white;
+    top: 75px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.search-bar {
+    left: -4%;
+    width: 600px;
     font-size: 15px;
     padding-left: 20px;
-    color: white;
 }
 
 .search-button {
-    position: absolute;
-    top: 75px;
     left: 12%;
-    height: 40px;
     width: 60px;
-    background-color: rgb(32, 32, 32);
-    border: 1px solid gray;
-    color: gray;
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -139,7 +138,6 @@ p {
     color: white;
 }
 
-.git-stat-amount
-{
+.git-stat-amount {
     color: lightgray;
 }
