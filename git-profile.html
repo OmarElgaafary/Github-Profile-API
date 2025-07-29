@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/git-profile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header">
+    <img class="github-logo" src="images/github-mark-white.png">
+    <p class="">GitHub Profile API</p>
+    <div class="input-div">
+      <input type="text" placeholder="Enter GitHub Username" class="search-bar">
+      <button class="search-button">fetch</button>
+    </div>
+  </div>
+
+  <div class="content-div">
+    <img class="git-profile-picture">
+
+    <div class="info-div">
+      <p class="git-date-joined">date joined</p>
+
+      <div class="info-id">
+        <p class="git-name"></p>
+        <p class="git-username"></p>
+        <p class="git-bio"></p>
+      </div>
+
+
+      <div class="info-stats">
+        <div class="git-stat">
+          <p class="git-stat-header">Repos</p>
+          <p class="git-stat-amount js-repos"></p>
+        </div>
+        <div class="git-stat">
+          <p class="git-stat-header">Followers</p>
+          <p class="git-stat-amount js-followers"></p>
+        </div>
+        <div class="git-stat">
+          <p class="git-stat-header">Following</p>
+          <p class="git-stat-amount js-following"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="scripts/git-profile.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: Roboto, Arial;
+}
+
+p {
+    display: inline-block;
+    margin: 0px;
+}
+
+.header {
+    position: relative;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 43%;
+    right: 50%;
+    font-size: 30px;
+    width: 200%;
+    font-family: Oswald, Roboto;
+}
+
+.github-logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 75px;
+    left: -4%;
+    height: 40px;
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+}
+
+.search-button {
+    position: absolute;
+    top: 75px;
+    left: 12%;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content-div {
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    background-color: rgb(40, 40, 40);
+    width: 35%;
+    height: 40%;
+}
+
+.git-profile-picture {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 125px;
+    border: 1px solid white;
+}
+
+.info-div {
+    position: relative;
+    position: absolute;
+    background-color: rgb(70, 70, 70);
+    top: 10%;
+    left: 175px;
+    height: 85%;
+    width: 70%;
+}
+
+.info-id {
+    position: absolute;
+    left: 20px;
+}
+
+.git-username,
+.git-name,
+.git-bio {
+    display: block;
+    left: 20px;
+}
+
+.git-name {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.git-username {
+    color: rgb(42, 103, 196);
+    font-size: 15px;
+}
+
+.git-bio {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.git-date-joined {
+    position: absolute;
+    right: 10px;
+    width: max-content;
+    top: 10px;
+    color: lightgray;
+
+}
+
+.info-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    width: 90%;
+    height: 50%;
+}
+
+.git-stat {
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+}
+
+.git-stat-header {
+    display: block;
+    margin-top: 40%;
+    color: white;
+}
+
+.git-stat-amount
+{
+    color: lightgray;
+}
